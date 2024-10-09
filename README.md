@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://cmmv.io">Documentation</a> &bull;
-  <a href="https://github.com/andrehrferreira/cmmv/issues">Report Issue</a>
+  <a href="https://github.com/andrehrferreira/cmmv-language-tools/issues">Report Issue</a>
 </p>
 
 ## Description
@@ -22,14 +22,6 @@ At its core, the CMMV language-tools provide syntax highlighting, intelligent co
 Similar to its Vue.js counterpart, the CMMV language-tools seamlessly integrates with IDEs like Visual Studio Code, offering an intuitive and developer-friendly environment. Through its support for both JavaScript and TypeScript, it provides flexibility for developers to write type-safe code with advanced type inference capabilities, reducing the likelihood of runtime errors. Furthermore, the toolset understands CMMV-specific syntax, which enables developers to leverage the framework's unique contract-based communication and RPC handling in their Vue components effortlessly.
 
 By combining TypeScript, Vue, and CMMV framework functionalities, the language-tools ensure that CMMV developers have all the necessary features to build complex web applications with ease, productivity, and confidence.
-
-## Documentation
-
-The complete documentation is available [here](https://cmmv.io).
-
-## Support
-
-CMMV is an open-source project, and we are always looking for contributors to help improve it. If you encounter a bug or have a feature request, please open an issue on [GitHub](https://github.com/andrehrferreira/cmmv/issues).
 
 ## Stay in Touch
 

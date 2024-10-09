@@ -1,9 +1,0 @@
-{
-	"exclude": [ "../tsconfig.base.json" ],
-	"include": [ "**/*" ],
-	"compilerOptions": {
-		"paths": {
-			"@/*": [ "./*" ]
-		}
-	}
-}

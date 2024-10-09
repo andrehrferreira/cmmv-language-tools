@@ -10,9 +10,9 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"esModuleInterop": false,
+		"verbatimModuleSyntax": false,
 		"forceConsistentCasingInFileNames": true,
 		"ignoreDeprecations": "5.0",
-		"importsNotUsedAsValues": "remove",
 	},
 	"include": [ ],
 }
