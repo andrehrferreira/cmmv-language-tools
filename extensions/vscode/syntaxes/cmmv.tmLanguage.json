@@ -981,6 +981,12 @@
 				},
 				{
 					"include": "#cmmv-directives-generic-attr"
+				},
+				{
+					"include": "#cmmv-directives-ssr"
+				},
+				{
+					"include": "#cmmv-directives-frontend"
 				}
 			]
 		},
@@ -1050,6 +1056,12 @@
 				},
 				"2": {
 					"name": "keyword.control.conditional.cmmv"
+				},
+				"3": {
+					"name": "keyword.control.loop.cmmv"
+				},
+				"4": {
+					"name": "keyword.control.conditional.cmmv"
 				}
 			},
 			"end": "(?=\\s*+[^=\\s])",
@@ -1059,6 +1071,25 @@
 					"include": "#cmmv-directives-expression"
 				}
 			]
+		},
+		"cmmv-directives-ssr": {
+			"patterns": [
+			{
+				"begin": "\\b(s-if|s-for|s-attr|s-data|s-i18n)\\b",
+				"captures": {
+					"1": {
+						"name": "keyword.control.ssr.cmmv"
+					}
+				},
+				"end": "(?=\\s*[^=\\s])",
+				"name": "meta.attribute.directive.ssr.cmmv",
+				"patterns": [
+					{
+						"include": "#cmmv-directives-expression"
+					}
+				]
+			}
+		]
 		},
 		"cmmv-directives-expression": {
 			"patterns": [
@@ -1243,6 +1274,25 @@
 						{
 							"name": "keyword.operator.assignment.ts",
 							"match": "(=)(?!>)"
+						}
+					]
+				}
+			]
+		},
+		"cmmv-directives-frontend": {
+			"patterns": [
+				{
+					"begin": "\\b(c-scope|c-once|c-cloak|c-bind|c-slot|c-effect|c-model|c-pre|c-show|c-text)\\b",
+					"captures": {
+						"1": {
+							"name": "keyword.control.frontend.cmmv"
+						}
+					},
+					"end": "(?=\\s*[^=\\s])",
+					"name": "meta.attribute.directive.frontend.cmmv",
+					"patterns": [
+						{
+							"include": "#cmmv-directives-expression"
 						}
 					]
 				}
