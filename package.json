@@ -4,11 +4,11 @@
 	"author": "Andre Ferreira",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/andrehrferreira/cmmv-language-tools.git"
+		"url": "git+https://github.com/cmmvio/cmmv-language-tools.git"
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/andrehrferreira/cmmv-language-tools/issues"
+		"url": "https://github.com/cmmvio/cmmv-language-tools/issues"
 	},
 	"homepage": "https://cmmv.io",
 	"scripts": {
